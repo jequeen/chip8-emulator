@@ -11,10 +11,6 @@ int main(void){
         return 1;
     }
 
-    // for (int i = 0; i < 10; i++) {
-    //     printf("%02X\n", chip.memory[PROGRAM_START + i]);
-    // }
-
     for (int i = 0; i < 5; i++) {
         chip8_cycle(&chip);
     }

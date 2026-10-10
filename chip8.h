@@ -28,6 +28,6 @@ void chip8_init(Chip8 *chip);
 
 int chip8_load_rom(Chip8 *chip, const char *rom);
 
-int chip8_cycle(Chip8 *chip);
+void chip8_cycle(Chip8 *chip);
 
 #endif

@@ -20,7 +20,7 @@ int chip8_load_rom(Chip8 *chip, const char *rom) {
     return 1;
 }
 
-int chip8_cycle(Chip8 *chip) {
+void chip8_cycle(Chip8 *chip) {
     uint16_t opcode = (chip->memory[chip->pc] << 8) | chip->memory[chip->pc + 1];
     chip->pc += 2;
 
