@@ -25,5 +25,4 @@ void chip8_cycle(Chip8 *chip) {
     chip->pc += 2;
 
     printf("Opcode: %04X\n", opcode);
-    
 }
