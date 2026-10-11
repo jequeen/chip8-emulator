@@ -10,6 +10,7 @@
 #define DISPLAY_HEIGHT 32
 #define NUM_KEYS 16
 #define PROGRAM_START 0x200
+#define FONT_START 0x000
 
 typedef struct {
     uint8_t memory[MEMORY_SIZE];
